@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac50f0574494f8e45984b59481dd1336, type: 3}
+  m_Name: Coupe
+  m_EditorClassIdentifier: 
+  ID: 1
+  TopSpeed:
+    Base: 130
+    MaxStat: 200
+    Upgrades:
+    - Multiplier: 1
+      Additive: 0
+    - Multiplier: 1.3
+      Additive: 10
+    - Multiplier: 1.7
+      Additive: 20
+  Handling:
+    Base: 1
+    MaxStat: 1.7
+    Upgrades:
+    - Multiplier: 1
+      Additive: 0
+    - Multiplier: 1.3
+      Additive: 0.01
+    - Multiplier: 1.9
+      Additive: 0.1
+  Acceleration:
+    Base: 30
+    MaxStat: 60
+    Upgrades:
+    - Multiplier: 1
+      Additive: 0
+    - Multiplier: 1.3
+      Additive: 11
+    - Multiplier: 1.8
+      Additive: 17
+  Nitro:
+    Base: 35
+    MaxStat: 55
+    Upgrades:
+    - Multiplier: 1
+      Additive: 0
+    - Multiplier: 1.6
+      Additive: 5
+    - Multiplier: 2
+      Additive: 10
+  CarPrefab: {fileID: 7106748960800520841, guid: cf3517efee290d24aa3b4c254723e641,
+    type: 3}
+  CarIcon: {fileID: 2800000, guid: 55994ceb8031b9d4ab52c6acb57aab53, type: 3}
+  CarName: Coupe
+  Price: 150
+  IsPurchaseable: 1
+  LevelRequirement: 0
+  isLocked: 1

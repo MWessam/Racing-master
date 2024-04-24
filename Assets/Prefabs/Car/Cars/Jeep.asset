@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac50f0574494f8e45984b59481dd1336, type: 3}
+  m_Name: Jeep
+  m_EditorClassIdentifier: 
+  ID: 0
+  TopSpeed:
+    Base: 120
+    MaxStat: 200
+    Upgrades:
+    - Multiplier: 1
+      Additive: 0
+    - Multiplier: 1.3
+      Additive: 10
+    - Multiplier: 1.7
+      Additive: 20
+  Handling:
+    Base: 1
+    MaxStat: 1.7
+    Upgrades:
+    - Multiplier: 1
+      Additive: 0
+    - Multiplier: 1.3
+      Additive: 0.01
+    - Multiplier: 1.9
+      Additive: 0.1
+  Acceleration:
+    Base: 30
+    MaxStat: 60
+    Upgrades:
+    - Multiplier: 1
+      Additive: 0
+    - Multiplier: 1.3
+      Additive: 11
+    - Multiplier: 1.8
+      Additive: 17
+  Nitro:
+    Base: 20
+    MaxStat: 40
+    Upgrades:
+    - Multiplier: 1
+      Additive: 0
+    - Multiplier: 1.6
+      Additive: 5
+    - Multiplier: 2
+      Additive: 10
+  CarPrefab: {fileID: 6833386916545971310, guid: 45683a4fec14efd47925d7a92f47378b,
+    type: 3}
+  CarIcon: {fileID: 2800000, guid: c20c562494f568f45bbc877cc1f7560c, type: 3}
+  CarName: Diesel
+  Price: 0
+  IsPurchaseable: 0
+  LevelRequirement: 0
+  isLocked: 0

@@ -1,0 +1,566 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1173720720791491
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4094924954302643}
+  m_Layer: 0
+  m_Name: Shark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4094924954302643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173720720791491}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4185334735748203}
+  - {fileID: 4797841441431434}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &1878857386297917
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4185334735748203}
+  - component: {fileID: 137358365283777433}
+  m_Layer: 0
+  m_Name: Shark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4185334735748203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878857386297917}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 39.37008, y: 39.37008, z: 39.37008}
+  m_Children: []
+  m_Father: {fileID: 4094924954302643}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: -0, z: 0}
+--- !u!137 &137358365283777433
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878857386297917}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 61185ab5b855c0b4b8b6cfc3af3bbed6, type: 2}
+  - {fileID: 2100000, guid: 61185ab5b855c0b4b8b6cfc3af3bbed6, type: 2}
+  - {fileID: 2100000, guid: 61185ab5b855c0b4b8b6cfc3af3bbed6, type: 2}
+  - {fileID: 2100000, guid: 61185ab5b855c0b4b8b6cfc3af3bbed6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: f56de4116aeadd046acfb568a0e8d555, type: 2}
+  m_Bones:
+  - {fileID: 4840151081780834}
+  - {fileID: 4583732075319877}
+  - {fileID: 4330576307731830}
+  - {fileID: 4590308356761001}
+  - {fileID: 4515966407185102}
+  - {fileID: 4275006441030532}
+  - {fileID: 4050771835975949}
+  - {fileID: 4543438939651046}
+  - {fileID: 4462259273913493}
+  - {fileID: 4213942542789693}
+  - {fileID: 4448508273905537}
+  - {fileID: 4905996550287052}
+  - {fileID: 4583253492627395}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4840151081780834}
+  m_AABB:
+    m_Center: {x: -0.3508221, y: -0.00893645, z: 0.005666122}
+    m_Extent: {x: 0.3920182, y: 0.25930488, z: 0.27170515}
+  m_DirtyAABB: 0
+--- !u!1 &1961215545449099
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4797841441431434}
+  m_Layer: 0
+  m_Name: Shark_Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4797841441431434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961215545449099}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 4.844665E-08, y: -2.6893296E-24, z: 1.2111663E-08}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 4840151081780834}
+  m_Father: {fileID: 4094924954302643}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: -0, z: 0}
+--- !u!1 &1774575249321298
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4840151081780834}
+  m_Layer: 0
+  m_Name: Shark_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4840151081780834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774575249321298}
+  m_LocalRotation: {x: 0.707068, y: -0.0074368436, z: 0.071554616, w: 0.7034767}
+  m_LocalPosition: {x: 0.28154868, y: -0.531479, z: 0.26938012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4213942542789693}
+  - {fileID: 4448508273905537}
+  - {fileID: 4583732075319877}
+  - {fileID: 4590308356761001}
+  m_Father: {fileID: 4797841441431434}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.00006, y: 6.410512, z: -5.205292}
+--- !u!1 &1844735909371297
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4213942542789693}
+  m_Layer: 0
+  m_Name: Shark_Hand_L_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4213942542789693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844735909371297}
+  m_LocalRotation: {x: -0.4770546, y: 0.51914114, z: 0.46542156, w: 0.53506464}
+  m_LocalPosition: {x: -0.20185688, y: 3.3401697E-08, z: -1.2227375E-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4462259273913493}
+  m_Father: {fileID: 4840151081780834}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -77.947495, y: -88.402054, z: -5.6469126}
+--- !u!1 &1575839304227916
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4462259273913493}
+  m_Layer: 0
+  m_Name: Shark_Hand_L_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4462259273913493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575839304227916}
+  m_LocalRotation: {x: 0.07186954, y: -0.42668167, z: -0.063903265, w: 0.8992741}
+  m_LocalPosition: {x: -0.11524421, y: 5.9952737E-07, z: -7.475167E-09}
+  m_LocalScale: {x: 1.0000004, y: 1.0000006, z: 1.0000001}
+  m_Children:
+  - {fileID: 4905996550287052}
+  m_Father: {fileID: 4213942542789693}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 16.37325, y: 49.307716, z: 15.684796}
+--- !u!1 &1137494067644104
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4905996550287052}
+  m_Layer: 0
+  m_Name: Shark_Hand_L_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4905996550287052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137494067644104}
+  m_LocalRotation: {x: -0.033164993, y: 0.06617916, z: -0.09094501, w: 0.99310094}
+  m_LocalPosition: {x: -0.06598036, y: -2.985652E-08, z: 9.9166E-09}
+  m_LocalScale: {x: 0.9999998, y: 0.99999905, z: 0.9999996}
+  m_Children: []
+  m_Father: {fileID: 4462259273913493}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -4.5040584, y: -7.204593, z: 10.748438}
+--- !u!1 &1604998989419483
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4448508273905537}
+  m_Layer: 0
+  m_Name: Shark_Hand_R_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4448508273905537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604998989419483}
+  m_LocalRotation: {x: 0.53414524, y: 0.46612233, z: 0.5200953, w: -0.47636098}
+  m_LocalPosition: {x: -0.20185688, y: 3.9646775E-08, z: 9.460757E-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4330576307731830}
+  m_Father: {fileID: 4840151081780834}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -102.12133, y: 88.5913, z: -5.71444}
+--- !u!1 &1424764668114253
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4330576307731830}
+  m_Layer: 0
+  m_Name: Shark_Hand_R_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4330576307731830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424764668114253}
+  m_LocalRotation: {x: -0.026307834, y: -0.38043025, z: 0.06890236, w: 0.92186403}
+  m_LocalPosition: {x: -0.11598942, y: 1.4533997E-07, z: 2.4601816E-09}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 0.99999976}
+  m_Children:
+  - {fileID: 4583253492627395}
+  m_Father: {fileID: 4448508273905537}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -8.100075, y: 44.249523, z: -11.846719}
+--- !u!1 &1977566253340104
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4583253492627395}
+  m_Layer: 0
+  m_Name: Shark_Hand_R_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4583253492627395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977566253340104}
+  m_LocalRotation: {x: 0.0008781644, y: 0.15143242, z: 0.15441617, w: 0.9763315}
+  m_LocalPosition: {x: -0.069639765, y: -1.5117752E-08, z: -6.2593632E-09}
+  m_LocalScale: {x: 1.0000006, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 4330576307731830}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.9088404, y: -17.183039, z: -18.414434}
+--- !u!1 &1296962918032332
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4583732075319877}
+  m_Layer: 0
+  m_Name: Shark_Jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4583732075319877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296962918032332}
+  m_LocalRotation: {x: 0.08536535, y: 0.70195466, z: 0.7017187, w: 0.086967275}
+  m_LocalPosition: {x: -0.20185687, y: 1.0891035E-07, z: -1.3806556E-14}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4840151081780834}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90.00316, y: -0.13116439, z: -166.00136}
+--- !u!1 &1998138585827270
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4590308356761001}
+  m_Layer: 0
+  m_Name: Shark_Spine_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4590308356761001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998138585827270}
+  m_LocalRotation: {x: -0.0028590865, y: -0.046768177, z: -0.060952228, w: 0.99704033}
+  m_LocalPosition: {x: -0.20185688, y: 4.3810157E-08, z: 4.8875366E-11}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 4515966407185102}
+  m_Father: {fileID: 4840151081780834}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 4.304667E-09, y: 5.37121, z: 6.996637}
+--- !u!1 &1226807016506494
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4515966407185102}
+  m_Layer: 0
+  m_Name: Shark_Spine_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4515966407185102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226807016506494}
+  m_LocalRotation: {x: -0.0004628298, y: 0.02109376, z: 0.021908814, w: 0.9995373}
+  m_LocalPosition: {x: -0.14455052, y: 3.3307067E-08, z: 1.7211709E-22}
+  m_LocalScale: {x: 0.99999964, y: 0.99999964, z: 1}
+  m_Children:
+  - {fileID: 4275006441030532}
+  m_Father: {fileID: 4590308356761001}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -5.4638804E-05, y: -2.417928, z: -2.511324}
+--- !u!1 &1696004476002242
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4275006441030532}
+  m_Layer: 0
+  m_Name: Shark_Spine_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4275006441030532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696004476002242}
+  m_LocalRotation: {x: 0.0005860937, y: 0.10061396, z: -0.0058079627, w: 0.99490845}
+  m_LocalPosition: {x: -0.08803243, y: -7.683339E-08, z: 9.1964175E-10}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 4050771835975949}
+  m_Father: {fileID: 4515966407185102}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00014649837, y: -11.549248, z: 0.6689567}
+--- !u!1 &1803920228970769
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4050771835975949}
+  m_Layer: 0
+  m_Name: Shark_Spine_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4050771835975949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803920228970769}
+  m_LocalRotation: {x: 0.0014010317, y: 0.09943967, z: -0.014036823, w: 0.9949436}
+  m_LocalPosition: {x: -0.08430622, y: 1.8924474E-10, z: 6.462368E-10}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 4543438939651046}
+  m_Father: {fileID: 4275006441030532}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00021855299, y: -11.4149475, z: 1.6165906}
+--- !u!1 &1802692419540975
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4543438939651046}
+  m_Layer: 0
+  m_Name: Shark_Spine_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4543438939651046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802692419540975}
+  m_LocalRotation: {x: 6.522483E-07, y: -6.022751E-08, z: 0.0057623074, w: 0.99998343}
+  m_LocalPosition: {x: -0.058779527, y: 0, z: 5.5240392E-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4050771835975949}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 7.470113E-05, y: 7.3321357E-06, z: -0.6603154}
