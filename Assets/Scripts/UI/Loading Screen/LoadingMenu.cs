@@ -18,7 +18,6 @@ namespace UI.Loading_Screen
         {
             base.Awake();
             UIHandler.Instance.OnCameraChange += ReadyLoadingUICamera;
-            _root.gameObject.SetActive(false);
         }
         void ReadyLoadingUICamera(Camera cam)
         {

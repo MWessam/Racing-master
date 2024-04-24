@@ -41,7 +41,7 @@ namespace PathCreation.Examples
         {
             _movements.MaxSpeed = PersistantPlayerDataBase.Instance.CurrentCar.TopSpeed.CurrentStat;
             _movements.acclearionRate = PersistantPlayerDataBase.Instance.CurrentCar.Acceleration.CurrentStat;
-            dragControl = PersistantPlayerDataBase.Instance.CurrentCar.Handling.CurrentStat * 0.3f;
+            dragControl = PersistantPlayerDataBase.Instance.CurrentCar.Handling.CurrentStat * 0.1f;
         }
 
         public void DisallowControl()
@@ -53,7 +53,7 @@ namespace PathCreation.Examples
         void Update()
         {
 
-            catchUpSpeed = Mathf.Clamp(_movements.speed/3f, 10f, 15f);
+            catchUpSpeed = Mathf.Clamp(_movements.speed/3f, 2f, 15f);
 
             if (Input.GetMouseButtonDown(0))
             {

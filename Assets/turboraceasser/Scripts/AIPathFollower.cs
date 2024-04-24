@@ -19,7 +19,7 @@ namespace PathCreation.Examples
         public float speed = 5;
         public float MaxSpeed = 48;
         private float acclearionRate = 10f;
-        private float logicalSpeed => speed / 2.25f;
+        private float logicalSpeed => speed / 2.75f;
         
         [HideInInspector]
         public float distanceTravelled;

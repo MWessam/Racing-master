@@ -55,7 +55,7 @@ namespace PathCreation.Examples
 
        public float flyingSpeed = 1;
        public float fallSpeed = 1;
-       private float logicalSpeed => speed / 2.25f;
+       private float logicalSpeed => speed / 2.75f;
 
         CameraFollowRotate roadCam;
 
